@@ -1,0 +1,31 @@
+{
+    "source": "./contents",
+    "metadata": {
+        "site_title": "Vela",
+        "description": "Carbon 3D-printed sub-orbital boat nano-vinyl rebar garage urban smart."
+    },
+    "plugins": {
+        "metalsmith-collections": {
+            "main": {
+                "sortBy": "order",
+                "refer": false
+            },
+            "aux": {
+                "sortBy": "order",
+                "refer": false
+            }
+        },
+        "metalsmith-markdown": true,
+        "metalsmith-permalinks": {
+            "relative": false
+        },
+        "metalsmith-sass": {
+            "outputStyle": "compressed",
+            "outputDir": "css/"
+        },
+        "metalsmith-layouts": {
+            "directory": "./templates",
+            "default": "page.njk"
+        }
+    }
+}

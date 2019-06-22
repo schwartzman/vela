@@ -1,0 +1,25 @@
+{
+	"name": "vela",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/schwartzman/vela.git"
+	},
+	"author": "Anthony Schwartzman",
+	"scripts": {
+		"smith": "node_modules/.bin/metalsmith",
+		"watch": "watch 'npm run smith' contents templates",
+		"serve": "livereloadx -s build"
+	},
+	"dependencies": {
+		"jstransformer-nunjucks": "^1.0.0",
+		"metalsmith": "^2.3.0",
+		"metalsmith-collections": "^0.9.0",
+		"metalsmith-layouts": "^2.3.1",
+		"metalsmith-markdown": "^1.2.0",
+		"metalsmith-navigation": "^0.2.9",
+		"metalsmith-permalinks": "^2.2.0",
+		"metalsmith-sass": "^1.6.0"
+	},
+	"private": true
+}
