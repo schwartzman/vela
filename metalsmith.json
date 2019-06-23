@@ -2,7 +2,8 @@
     "source": "./contents",
     "metadata": {
         "site_title": "Vela",
-        "description": "Carbon 3D-printed sub-orbital boat nano-vinyl rebar garage urban smart."
+        "description": "The Vela Foundation integrates sailing expeditions with participant-driven programs in the arts, sciences, and humanities.",
+        "GA_ID": "TBD"
     },
     "plugins": {
         "metalsmith-collections": {
@@ -15,6 +16,12 @@
                 "refer": false
             }
         },
+        "metalsmith-default-values": [{
+            "pattern": "**/*.md",
+            "defaults": {
+                "layout": "page.njk"
+            }
+        }],
         "metalsmith-markdown": true,
         "metalsmith-permalinks": {
             "relative": false
@@ -24,8 +31,7 @@
             "outputDir": "css/"
         },
         "metalsmith-layouts": {
-            "directory": "./templates",
-            "default": "page.njk"
+            "directory": "./templates"
         }
     }
 }
