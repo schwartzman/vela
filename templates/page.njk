@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ site_title }}{% if title %} - {{ title }}{% endif %}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="/img/icons/icon.png">
+    <link rel="icon" href="/img/icons/favicon.png?v=0" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800i&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="{{ path }} {{ title|lower }}">
+    <header>
+        <a href="/" class="logo">{{ site_title }}</a>
+        <nav>
+            {% for p in main -%}
+            <a href="/{{ p.path }}/">{{ p.title }}</a>
+            {%- endfor %}
+        </nav>
+    </header>
+
+    <main>
+        {% if path -%}
+        <h1>{{ title }}</h1>
+        {%- endif %}
+        {% if banner -%}
+        <img src="/img/banners/{{ banner }}.jpg" alt="{{ title }} banner" class="banner">
+        {%- endif %}
+        {{ contents|safe }}
+    </main>
+
+    <footer>
+        <nav>
+            <a href="/privacy/">Privacy</a>
+            <a href="https://www.guidestar.org/profile/47-5330034" target="_blank">Guidestar</a>
+        </nav>
+    </footer>
+
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', '{{ GA_ID }}', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+</html>
