@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    color: $txt;
+    background: $bg;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 2em 1em;
+    line-height: 1.45;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, footer {
+    text-align: center;
+    text-transform: uppercase;
+    nav {
+        a {
+            margin: 0 1.2rem;
+            font-weight: 300;
+        }
+    }
+    a {
+        &, &:visited {
+            color: $txt;
+        }
+        &:hover {
+            color: $hit;
+        }
+    }
+}
+
+header {
+    flex-shrink: 0;
+    .logo {
+        font-style: italic;
+        font-weight: 800;
+        font-size: 4em;
+        line-height: 1;
+        display: inline-block;
+        margin-bottom: 1rem;
+        &:hover {
+            color: $txt;
+        }
+    }
+    nav {
+        font-size: 0.9em;
+    }
+}
+
+main, footer {
+    margin-top: 2em;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    nav {
+        font-size: 0.8em;
+    }
+}
+
+main {
+    a {
+        &, &:visited {
+            color: $hit;
+            font-weight: 700;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    img.banner {
+        max-width: 100%;
+        margin-top: 0.5em;
+    }
+    // https://type-scale.com/ `Minor Third`
+    h1, h2, h3, h4, h5 {
+        margin: 2.75rem 0 1rem;
+        line-height: 1.15;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    h1 {
+        font-size: 2.074em;
+        margin-top: 0;
+    }
+    h2 {
+        font-size: 1.728em;
+    }
+    h3 {
+        font-size: 1.44em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    h5 {}
+    p {
+        margin: 0 0 1.25em;
+    }
+    ul {
+        list-style-type: none;
+        li {
+            text-indent: -0.7em;
+            &:before {
+                content: "-";
+                margin-right: 0.3em;
+            }
+        }
+    }
+    blockquote {
+        margin: 2em 0;
+        padding: 1em 4em;
+        border: solid 1px $trace;
+        text-align: center;
+        font-size: 1.3em;
+        p {
+            margin: 0;
+        }
+    }
+    dl {
+        dt {
+            font-weight: 700;
+        }
+        dd + dt {
+            margin-top: 1em;
+        }
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        tr {
+            border-top: solid 1px $ghost;
+        }
+        thead {
+            tr {
+                border-top: none;
+            }
+        }
+        th, td {
+            padding: 0.5em 0;
+        }
+        th {
+            font-weight: 700;
+            text-align: left;
+        }
+        td {
+            vertical-align: top;
+        }
+        ul {
+            margin: 0;
+            padding-left: 0;
+        }
+    }
+}
+
+.home main {
+    text-align: center;
+}
+
+.programs main {
+    th, td {
+        &:first-child {
+            white-space: nowrap;
+            width: 1%;
+            padding-right: 3em;
+        }
+    }
+}
+
+.about main {
+    table {
+        table-layout: fixed;
+        td:nth-child(even) {
+            text-align: center;
+        }
+    }
+}
