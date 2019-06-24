@@ -10,7 +10,7 @@
         gtag('config', '{{ GA_ID }}');
     </script>
     <meta charset="utf-8">
-    <title>{{ site_title }}{% if title %} - {{ title }}{% endif %}</title>
+    <title>{{ site_title }}{% if title and title != 'Home' %} - {{ title }}{% endif %}</title>
     <meta name="description" content="{{ description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/img/icons/icon.png">
@@ -21,7 +21,7 @@
 
 <body class="{{ title|trim|lower|replace(" ", "-") }}">
     <header>
-        <a href="/" class="logo">{{ site_title }}</a>
+        <a href="/" class="logo">Vela</a>
         <nav>
             {% for p in main -%}
             <a href="/{{ p.path }}/">{{ p.title }}</a>
