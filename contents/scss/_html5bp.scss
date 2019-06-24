@@ -26,12 +26,12 @@ html {
  */
 
 ::-moz-selection {
-  background: lighten($hit, 30%);
+  background: lighten($hit-warm, 30%);
   text-shadow: none;
 }
 
 ::selection {
-  background: lighten($hit, 30%);
+  background: lighten($hit-warm, 30%);
   text-shadow: none;
 }
 
@@ -43,7 +43,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid $trace;
+  border-top: 1px solid $ghost;
   margin: 1em 0;
   padding: 0;
 }
