@@ -6,8 +6,7 @@ collection: main
 order: 1
 ---
 
-> Vela Foundation programs operate at the interface of
-mapped and unmapped epistemological territory.
+> Vela Foundation programs operate at the interface of mapped and unmapped cultural terrain.
 
 ## Spark
 
