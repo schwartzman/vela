@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/img/icons/icon.png">
     <link rel="icon" href="/img/icons/favicon.png?v=0" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800i&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body class="{{ path }} {{ title|lower }}">
+<body class="{{ title|trim|lower|replace(" ", "-") }}">
     <header>
         <a href="/" class="logo">{{ site_title }}</a>
         <nav>
