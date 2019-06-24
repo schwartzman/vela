@@ -19,9 +19,9 @@ We begin with questions:
 
 ## Overview & Examples
 
-At its heart, Vela develops participant-driven programs. Foundation leadership maintains a strategic vision about what kinds of programs the organization will sponsor, but doesn't define them directly. Instead, participants propose programs with reference to our central [values](/about/#values). These values then guide [leadership/us] as we evaluate, approve, guide, and coordinate the organization's activities. Thus our programming remains flexible and open-ended while clustering into three primary areas of endeavor, falling broadly along the lines of our values.
+At its heart, Vela develops participant-driven programs. Foundation leadership maintains a strategic vision regarding the kinds of programs the organization will sponsor, but doesn't define them directly. Instead, participants propose programs with reference to our central [values](/about/#values). These values then guide leadership as we evaluate, approve, guide, and coordinate the organization's activities. Thus our programming remains flexible and open-ended while clustering into three primary areas of endeavor, which fall broadly along the lines of our values.
 
-Given our adherence to a decentralized programming model, there's a certain inevitable obliqueness in any discussion of [future/eventual] programming. That being said, we can at least imagine some concrete possibilities.
+Given our adherence to a decentralized programming model, there's a certain inevitable obliqueness in any discussion of future programming. That being said, we can at least imagine some concrete possibilities.
 
 Value | Example Programs
 --|--
