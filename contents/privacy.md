@@ -2,7 +2,7 @@
 title: Privacy Policy
 ---
 
-Vela Foundation Inc ("us", "we", or "our") operates the https://velavela.org website (hereinafter referred to as the "Service").
+Vela Foundation Inc ("us", "we", or "our") operates the https://vela.foundation website (hereinafter referred to as the "Service").
 
 This page informs you of our policies regarding the collection, use and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
@@ -12,7 +12,7 @@ We use your data to provide and improve the Service. By using the Service, you a
 
 <dl>
     <dt>Service</dt>
-    <dd>Service is the https://velavela.org website operated by Vela Foundation Inc</dd>
+    <dd>Service is the https://vela.foundation website operated by Vela Foundation Inc</dd>
     <dt>Personal Data</dt>
     <dd>Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).</dd>
     <dt>Usage Data</dt>
