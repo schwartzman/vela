@@ -3,7 +3,7 @@
     "metadata": {
         "site_title": "Vela",
         "description": "The Vela Foundation integrates sailing expeditions with participant-driven programs in the arts, sciences, and humanities.",
-        "GA_ID": "TBD"
+        "GA_ID": "UA-2234212-7"
     },
     "plugins": {
         "metalsmith-collections": {

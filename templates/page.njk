@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ GA_ID }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ GA_ID }}');
+    </script>
     <meta charset="utf-8">
     <title>{{ site_title }}{% if title %} - {{ title }}{% endif %}</title>
     <meta name="description" content="{{ description }}">
@@ -38,11 +45,5 @@
             <a href="https://www.guidestar.org/profile/47-5330034" target="_blank">Guidestar</a>
         </nav>
     </footer>
-
-    <script>
-        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-        ga('create', '{{ GA_ID }}', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 </html>
