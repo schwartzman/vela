@@ -8,7 +8,7 @@
 	"author": "Anthony Schwartzman",
 	"scripts": {
 		"smith": "node_modules/.bin/metalsmith",
-		"watch": "watch 'npm run smith' contents templates",
+		"watch": "watch 'npm run smith' content templates",
 		"serve": "livereloadx -s build"
 	},
 	"dependencies": {
