@@ -1,0 +1,53 @@
+- pipeline: Production
+  trigger_mode: ON_EVERY_PUSH
+  ref_name: 'refs/tags/*'
+  ref_type: WILDCARD
+  target_site_url: 'https://vela.foundation'
+  trigger_condition: ALWAYS
+  actions:
+  - action: 'Execute: npm run smith'
+    type: BUILD
+    working_directory: '/buddy/vela'
+    docker_image_name: 'library/node'
+    docker_image_tag: '10'
+    execute_commands:
+    - 'npm install'
+    - 'npm run smith'
+    mount_filesystem_path: '/buddy/vela'
+    shell: BASH
+    trigger_condition: ALWAYS
+  - action: 'Upload files to AWS S3/vela.foundation'
+    type: AMAZON_S3
+    input_type: BUILD_ARTIFACTS
+    local_path: '/build/'
+    bucket_name: 'vela.foundation'
+    integration_id: 57822
+  - action: Purge cache at Vela
+    type: CLOUD_FRONT
+    input_type: SCM_REPOSITORY
+    distribution_id: E2BU9M382SLWXG
+    distribution_name: Vela
+    purge_all: true
+    wait_for_completed: 0
+    trigger_condition: ALWAYS
+    integration_id: 57822
+  - action: Send failure notification to deployments channel
+    type: SLACK
+    trigger_time: ON_FAILURE
+    content: '[#$BUDDY_EXECUTION_ID] $BUDDY_PIPELINE_NAME execution by <$BUDDY_INVOKER_URL|$BUDDY_INVOKER_NAME>'
+    channel: C03UKJJ1G
+    channel_name: deployments
+    attachments:
+    - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"danger\",\"fields\":[{\"title\":\"Failed execution\",\"value\":\"<$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\",\"short\":true},{\"title\":\"Pipeline\",\"value\":\"<$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\",\"short\":true},{\"title\":\"Branch\",\"value\":\"$BUDDY_EXECUTION_BRANCH\",\"short\":true},{\"title\":\"Project\",\"value\":\"<$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\",\"short\":true}]}"
+    trigger_condition: ALWAYS
+    integration_id: 34792
+  - action: Send success notification to deployments channel
+    type: SLACK
+    trigger_time: ON_BACK_TO_SUCCESS
+    content: '[#$BUDDY_EXECUTION_ID] $BUDDY_PIPELINE_NAME execution by <$BUDDY_INVOKER_URL|$BUDDY_INVOKER_NAME>'
+    channel: C03UKJJ1G
+    channel_name: deployments
+    attachments:
+    - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"good\",\"fields\":[{\"title\":\"Successful execution\",\"value\":\"<$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\",\"short\":true},{\"title\":\"Pipeline\",\"value\":\"<$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\",\"short\":true},{\"title\":\"Branch\",\"value\":\"$BUDDY_EXECUTION_BRANCH\",\"short\":true},{\"title\":\"Project\",\"value\":\"<$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\",\"short\":true}]}"
+    trigger_condition: ALWAYS
+    integration_id: 34792
