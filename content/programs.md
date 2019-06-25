@@ -12,9 +12,9 @@ order: 1
 
 We begin with questions:
 
-* What kinds of meaningful or interesting activities can we pursue on sailing boats, and in the uniquely remote locations which they can reach?
-* What kinds of activities might be particularly heightened by being pursued in this context?
-* *What singular gifts can sailors offer to the world?*
+* What kinds of _meaningful or interesting activities_ can we pursue on sailing boats, and in the uniquely remote locations which they can reach?
+* What kinds of activities might be particularly _amplified in this context?_
+* _What singular gifts can sailors offer to the world?_
 
 ## Overview & Examples
 
