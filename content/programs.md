@@ -13,20 +13,20 @@ order: 1
 We begin with questions:
 
 * What kinds of _meaningful or interesting activities_ can we pursue on sailing boats, and in the uniquely remote locations which they can reach?
-* What kinds of activities might be particularly _amplified in this context?_
+* What kinds of activities might particularly be _amplified in this context?_
 * _What singular gifts can sailors offer to the world?_
 
 ## Overview & Examples
 
-At its heart, Vela develops participant-driven programs. Foundation leadership maintains a strategic vision regarding the kinds of programs the organization will sponsor, but doesn't define them directly. Instead, participants propose programs with reference to our central [values](/about/#values). These values then guide leadership as we evaluate, approve, guide, and coordinate the organization's activities. Thus our programming remains flexible and open-ended while clustering into three primary areas of endeavor, which fall broadly along the lines of our values.
+At its heart, Vela develops participant-driven programs. Foundation leadership maintains a strategic vision regarding the kinds of programs the organization will sponsor, but doesn't define them directly. Instead, participants propose programs with reference to our central [values](/about/#values). These values then guide leadership as we evaluate, approve, guide, and coordinate the organization's activities. Thus our programming remains flexible and open-ended while clustering into three primary areas of endeavor, which themselves fall broadly along the lines of our values.
 
 Given our adherence to a decentralized programming model, there's a certain inevitable obliqueness in any discussion of future programming. That being said, we can at least imagine some concrete possibilities.
 
 Value | Example Programs
 --|--
 Kindness | <ul><li>Itinerant medical clinic & lab</li><li>Refugee transport</li><li>Marine medical training</li><li>Cargo transport (charitable/humanitarian goods)</li></ul>
-Wisdom | <ul><li>Think tanks, seminars, conferences, roundtables, workshops</li><li>Scientific research expeditions</li><li>Coastal permaculture</li><li>Cargo transport (commodity/commercial goods)</li></ul>
-Grace | <ul><li>Artistic residencies, tours, collaborations</li><li>Mindful adventure expeditions</li><li>Cultural exchange expeditions</li><li>Contemplative practice</li></ul>
+Wisdom | <ul><li>Think tanks, seminars, conferences, roundtables, workshops</li><li>Scientific research expeditions</li><li>Island permaculture</li><li>Cargo transport (commodity/commercial goods)</li></ul>
+Grace | <ul><li>Artistic residencies, tours, collaborations</li><li>Freediving expeditions</li><li>Cultural exchange expeditions</li><li>Contemplative practice</li></ul>
 
 
 ## Why Sailing?
