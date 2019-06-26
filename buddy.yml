@@ -1,7 +1,7 @@
 - pipeline: Production
   trigger_mode: ON_EVERY_PUSH
-  ref_name: 'refs/tags/*'
-  ref_type: WILDCARD
+  ref_name: master
+  ref_type: BRANCH
   target_site_url: 'https://vela.foundation'
   trigger_condition: ALWAYS
   actions:
