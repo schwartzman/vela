@@ -8,11 +8,13 @@ order: 2
 
 ## Vision
 
-> By inviting participants to conceive and conduct programs under our aegis, The Vela Foundation unleashes humanity's capacity to engage consciously with the course of its own evolution.
+> By conducting participant-defined programs alongside our own offerings, The Vela Foundation unleashes humanity's capacity to engage consciously with the course of its own evolution.
 
-Our ultimate goal is to conduct multi-year globe-spanning voyages with a substantial fleet of sailing vessels. Our participants will promulgate programs across the arts, sciences, and humanities. We'll engage with large crews and small, permanent fellows and visiting geniuses. The programs borne upon our voyages will help to bring about a human civilization rooted in kindness, wisdom, and grace.  
+Our ultimate goal is to conduct multi-year globe-spanning voyages with a substantial fleet of sailing vessels. We and our participants will promulgate programs across the arts, sciences, and humanities. We'll engage with large crews and small, permanent fellows and visiting geniuses. The programs borne upon our voyages will help to bring about a human civilization rooted in kindness, wisdom, and grace.
 
-The substance of our activities will emerge from an organizational structure that integrates strategic leadership in program approval and coordination with vast participant leeway in program genesis and execution. By empowering participants to pursue programs of their own devising, this approach will yield high levels of engagement and efficacy. Some participants may also choose to expand existing programs, or to conduct multiple programs in parallel. Thus, while certain programs will be pursued by only a single boat, others will encompass the entire fleet or portions thereof. Put into practice at sufficient scale, this system will maximize the strengths of our participant-driven programming model. In this fashion, we'll merge focus with flexibility, passion with institutional stability, sparkling curiosity with long-term thinking. The style and content of our programs will disturb broken systems of thought and action, launch provocative questions at unexamined aspects of reality, and advance wild possibilities for our life on this planet and beyond.
+Our activities will consist of clearly defined in-house programming, as well as programs conceived by leaders from outside the organization. In coordinating the latter, we'll integrate strategic leadership in program approval and coordination with vast participant leeway in program genesis and execution. Some participants may also choose to expand existing programs, or to conduct multiple programs in parallel. Thus, while certain programs will be pursued by only a single boat, others will encompass the entire fleet or portions thereof.
+
+With this hybrid approach to programming, we'll merge focus with flexibility, passion with institutional stability, sparkling curiosity with long-term thinking. The style and content of our programs will disturb broken systems of thought and action, launch provocative questions at unexamined aspects of reality, and advance wild possibilities for our life on this planet and beyond.
 
 ## Values
 
@@ -31,4 +33,3 @@ Beauty | &rarr; | Grace | &rarr; | Wonder
 ## Legally
 
 We're a 501(c)(3) organization, incorporated in New York. Our disclosures are available on <a href="https://www.guidestar.org/profile/47-5330034" target="_blank">Guidestar</a>.
-

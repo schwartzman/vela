@@ -16,20 +16,21 @@ Sailing brings out the best in us. It calls forth the noblest elements of our hu
 * What kinds of activities might be especially _amplified in this context?_
 * _What singular gifts can sailors offer to the world?_
 
-## Overview & Examples
+## Approaches to Programming
 
-At its heart, Vela develops participant-driven programs. Foundation leadership maintains a strategic vision regarding the kinds of programs the organization will sponsor, but doesn't define them directly. Instead, participants propose programs with reference to our central [values](/about/#values). These values then guide leadership as we evaluate, approve, guide, and coordinate the organization's activities. Thus our programming remains flexible and open-ended while clustering into three primary areas of endeavor, which themselves fall broadly along the lines of our values.
+We design and conduct our primary programs in accordance with our central [values](/about/#values). Our inaugural activities will take place 2020; we'll add details here as programs are confirmed.
 
-Given our adherence to a decentralized programming model and our current very early stage of growth, we face a bit of a chicken/egg conundrum when it comes to discussing future programs in detail. Still, despite the challenges it can occasionally present, we see the fluidity that animates our programming model as our greatest strength, the priceless sapphire at the heart of our citadel.
+Once we have established some momentum, we also intend to develop participant-driven programs. In this approach, foundation leadership will maintain a strategic vision regarding the kinds of programs the organization will sponsor, but won't define them directly. Instead, participants will propose programs with reference to our central values. We will then evaluate, approve, guide, and coordinate these additional offerings.
 
-Let's imagine some possibilities.
+In either case, our programming remains flexible and open-ended while clustering into three primary areas of endeavor, which themselves fall broadly along the lines of our values.
+
+Given our current very early stage of growth, it's not yet feasible to describe future programs in detail. We can, however, imagine some possibilities.
 
 Value | Example Programs
 --|--
 Kindness | <ul><li>Itinerant medical clinic & lab</li><li>Refugee transport</li><li>Marine medical training</li><li>Cargo transport (charitable/humanitarian goods)</li></ul>
 Wisdom | <ul><li>Think tanks, seminars, conferences, roundtables, workshops</li><li>Scientific research expeditions</li><li>Island permaculture</li><li>Cargo transport (commodity/commercial goods)</li></ul>
 Grace | <ul><li>Artistic residencies, tours, collaborations</li><li>Freediving expeditions</li><li>Cultural exchange expeditions</li><li>Contemplative practice</li></ul>
-
 
 ## Why Sailing?
 
