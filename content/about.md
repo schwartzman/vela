@@ -8,7 +8,7 @@ order: 2
 
 ## Vision
 
-> By conducting participant-defined programs alongside our own offerings, The Vela Foundation unleashes humanity's capacity to engage consciously with the course of its own evolution.
+> By integrating sailing expeditions with values-driven programs, The Vela Foundation unleashes humanity's capacity to engage consciously with the course of its own evolution.
 
 Our ultimate goal is to conduct multi-year globe-spanning voyages with a substantial fleet of sailing vessels. We and our participants will develop programs across the arts, sciences, and humanities. We'll collaborate with crews large and small, permanent fellows, and visiting geniuses. The programs borne upon our voyages will help to bring about an emerging human civilization rooted in kindness, wisdom, and grace.
 

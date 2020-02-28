@@ -10,19 +10,15 @@ order: 1
 
 ## Motivation
 
-Sailing brings out the best in us. It calls forth the noblest elements of our humanity: our care for one another, our lucid perception of the world around us, our gentle hearts opening to a reality beyond words. The world is a lively place and simply sailing around feeling groovy strikes us as a pretty insufficient expression of our capacities. Thus we are moved to ask:
+Sailing brings out the best in us. It calls forth the noblest elements of our humanity: our care for one another, our lucid perception of the world around us, our gentle hearts opening to a reality beyond words. But what then? The world is a lively place, and just sailing around feeling groovy is a pretty insufficient expression of our greater capacities. Thus we are moved to ask:
 
 * What kinds of _meaningful activities_ can we pursue on sailboats and in the uniquely remote locations which they can reach?
 * What kinds of activities might be especially _amplified in this context?_
 * What _singular gifts_ can sailors offer to the world?
 
-## Approaches to Programming
+## Development
 
-We design and conduct our primary programs in accordance with our central [values](/about/#values). Our inaugural activities will take place 2020; we'll add details here as programs are confirmed.
-
-Once we have established some momentum, we also intend to develop participant-driven programs. In this approach, foundation leadership will maintain a strategic vision regarding the kinds of programs the organization will sponsor, but won't define them directly. Instead, participants will propose programs rooted in our central values. We will then evaluate, approve, guide, and coordinate these additional offerings.
-
-In either case, our programming will remain flexible and open-ended while clustering into three primary areas of endeavor, which themselves fall broadly along the lines of our values.
+We design and conduct our programs as expressions of our central [values](/about/#values). Our activities can thus be clustered into three primary areas of endeavor.
 
 Given our current early stage of growth, it's not yet feasible to describe future programs in detail. We can, however, imagine some possibilities.
 
@@ -30,7 +26,7 @@ Value | Example Programs
 --|--
 Kindness | <ul><li>Itinerant medical clinic & lab</li><li>Refugee transport</li><li>Marine medical training</li><li>Cargo transport (charitable/humanitarian goods)</li></ul>
 Wisdom | <ul><li>Think tanks, seminars, conferences, roundtables, workshops</li><li>Scientific research expeditions</li><li>Island permaculture</li><li>Cargo transport (commodity/commercial goods)</li></ul>
-Grace | <ul><li>Artistic residencies, tours, collaborations</li><li>Freediving expeditions</li><li>Cultural exchange expeditions</li><li>Contemplative practice</li></ul>
+Grace | <ul><li>Transformative adventures</li><li>Artistic residencies, tours, collaborations</li><li>Freediving expeditions</li><li>Cultural exchange expeditions</li></ul>
 
 ## Why Sailing?
 
