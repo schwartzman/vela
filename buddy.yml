@@ -11,8 +11,8 @@
     docker_image_name: 'library/node'
     docker_image_tag: '10'
     execute_commands:
-    - 'npm install'
-    - 'npm run smith'
+      - 'npm install'
+      - 'npm run smith'
     mount_filesystem_path: '/buddy/vela'
     shell: BASH
     trigger_condition: ALWAYS
@@ -38,7 +38,7 @@
     channel: C03UKJJ1G
     channel_name: deployments
     attachments:
-    - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"danger\",\"fields\":[{\"title\":\"Failed execution\",\"value\":\"<$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\",\"short\":true},{\"title\":\"Pipeline\",\"value\":\"<$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\",\"short\":true},{\"title\":\"Branch\",\"value\":\"$BUDDY_EXECUTION_BRANCH\",\"short\":true},{\"title\":\"Project\",\"value\":\"<$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\",\"short\":true}]}"
+      - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"danger\",\"fields\":[{\"title\":\"Failed execution\",\"value\":\"<$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\",\"short\":true},{\"title\":\"Pipeline\",\"value\":\"<$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\",\"short\":true},{\"title\":\"Branch\",\"value\":\"$BUDDY_EXECUTION_BRANCH\",\"short\":true},{\"title\":\"Project\",\"value\":\"<$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\",\"short\":true}]}"
     trigger_condition: ALWAYS
     integration_id: 34792
   - action: Send success notification to deployments channel
@@ -48,6 +48,6 @@
     channel: C03UKJJ1G
     channel_name: deployments
     attachments:
-    - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"good\",\"fields\":[{\"title\":\"Successful execution\",\"value\":\"<$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\",\"short\":true},{\"title\":\"Pipeline\",\"value\":\"<$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\",\"short\":true},{\"title\":\"Branch\",\"value\":\"$BUDDY_EXECUTION_BRANCH\",\"short\":true},{\"title\":\"Project\",\"value\":\"<$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\",\"short\":true}]}"
+      - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"good\",\"fields\":[{\"title\":\"Successful execution\",\"value\":\"<$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\",\"short\":true},{\"title\":\"Pipeline\",\"value\":\"<$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\",\"short\":true},{\"title\":\"Branch\",\"value\":\"$BUDDY_EXECUTION_BRANCH\",\"short\":true},{\"title\":\"Project\",\"value\":\"<$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\",\"short\":true}]}"
     trigger_condition: ALWAYS
     integration_id: 34792
